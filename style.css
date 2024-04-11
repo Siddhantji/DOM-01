@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+body>p{
+    text-decoration: underline;
+}
+#count{
+    font-weight: bold;
+}
+#err{
+    text-decoration: none;
+    color: red;
+    display: none;
+}
+button{
+    width: 100px;
+    border-radius: 0;
+    background-color: white;
+    border-color: white;
+}
+#clear{
+    background-color: black;
+    display: none;
+    color: white;
+}
