@@ -7,7 +7,7 @@ const clear = document.getElementById("clear");
 let a = 0;
 function display(){
     count.textContent=a;
-    if (a===0){
+    if (a===0 || a<0){
         err.style.display="block";
         clear.style.display="none";
         dec.disabled = true;
